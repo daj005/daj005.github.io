@@ -12,8 +12,9 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 11px powderblue;
+     padding: 100px; background-color: #ffffcc;
+     text-align: block;
 }
 
 .jumbotron-container {
@@ -21,4 +22,13 @@ body {
      margin-top: 50px;
      margin-bottom: 20px;
      padding: 20px;
+}
+h1{color:powderblue;
+}
+
+body {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
 }
